@@ -8,6 +8,8 @@ let rollNumber  = 122;
 const isAdmin : boolean = true;
 
 // Prinitive Types
+// Prinitive Types
+// Prinitive Types
 // String
 // number
 // boolean
