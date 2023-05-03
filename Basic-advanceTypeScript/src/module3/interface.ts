@@ -47,7 +47,7 @@ interface IRollNumbers {
 
 }
 
-const rollNumbers : IRollNumbers = ["1","3","5"]  // [index]
+// const rollNumbers : IRollNumbers = ["1","3","5"]  // [index]
 
 
 const addNumbers : addNumbersType= (num1, num2): number => num1 + num2;
