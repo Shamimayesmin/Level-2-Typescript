@@ -28,16 +28,16 @@ const result5 = createArray2<boolean, Array<string>>(false, ['USA'])
 
 // const newData = {...myInfo, crush}
 
-const addMeInMyCrushMind =<T>(myInfo:T)=> {
-    const crush = "Alian";
-    const newData = {...myInfo, crush};
-    return newData;
-}
+// const addMeInMyCrushMind =<T>(myInfo:T)=> {
+//     const crush = "Alian";
+//     const newData = {...myInfo, crush};
+//     return newData;
+// }
 
-const myInfo = {
-    name : 'alina',
-    age : 200,
-    salary : 100000000
-}
+// const myInfo = {
+//     name : 'alina',
+//     age : 200,
+//     salary : 100000000
+// }
 
-const result6 = addMeInMyCrushMind(myInfo);
+// const result6 = addMeInMyCrushMind(myInfo);
