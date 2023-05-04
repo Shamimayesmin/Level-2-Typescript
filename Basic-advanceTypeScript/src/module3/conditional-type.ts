@@ -19,4 +19,16 @@ type d = a1 extends null
         wife2 : string;
     }
 
-    type CheckProperty <T> = T extends 'wife1' ? true : false;
+    type A = keyof Sheikh;
+    
+    // type CheckProperty <T> = T extends {wife1 : string} ? true : false;
+    type CheckProperty <T, K> = K extends Sheikh ? true : false;
+
+    type checkWife1 = CheckProperty<Sheikh, "boyfriend">
+
+    // matha kharaf type 
+    type Bandubi = 'Monika' | 'Anika' | 'sanika'
+
+    type RemoveBandubi <T, K> = T extends K ? never: T;
+
+    type currentBandubi = RemoveBandubi<Bandubi, "Anika">;
