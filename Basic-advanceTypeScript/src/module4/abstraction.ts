@@ -10,14 +10,14 @@
 // }
 
 
-interface IVehicle{
+interface Vehicle{
     startEngine() : void;
     stopEngine(): void;
-    move() : void;
+    move?() : void;
 
 }
 
-class Vehicle implements IVehicle{
+class Bus implements Vehicle{
     constructor(
         public name : string,
         public brand: string,
@@ -40,12 +40,12 @@ class Vehicle implements IVehicle{
 }
 
 
-const vehicle =new Vehicle('Car', 'Toyota', 2000);
+const car =new Bus('Car', 'Toyota', 2000);
 
 
 // abstract class
 
-abstract  class Vehicle1{
+abstract class Vehicle1{
     constructor(
         public name : string,
         public brand: string,
@@ -68,3 +68,6 @@ class Car extends Vehicle1{
         console.log("I am stopping engine..");
     }
 }
+
+const car1 = new Car('car', 'honda', 2023)
+console.log(car1);
