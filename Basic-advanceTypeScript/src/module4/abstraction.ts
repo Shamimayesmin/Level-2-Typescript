@@ -45,3 +45,26 @@ const vehicle =new Vehicle('Car', 'Toyota', 2000);
 
 // abstract class
 
+abstract  class Vehicle1{
+    constructor(
+        public name : string,
+        public brand: string,
+        public model: number
+    ){}
+  abstract startEngine(): void 
+ abstract stopEngine(): void 
+    move(): void {
+        console.log('I am moving engine');
+    }
+
+   
+}
+
+class Car extends Vehicle1{
+    startEngine(): void {
+        console.log("I am starting engine..");
+    }
+    stopEngine(): void {
+        console.log("I am stopping engine..");
+    }
+}
