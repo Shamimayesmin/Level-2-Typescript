@@ -28,5 +28,5 @@ class User implements model{
     }
 }
 
-const user1 = new User('Alina', 'shamima');
-console.log(user1.methods.fullName());
+// const user1 = new User('Alina', 'shamima');
+// console.log(user1.methods.fullName());
