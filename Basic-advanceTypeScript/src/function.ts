@@ -1,11 +1,11 @@
 // normal function 
 // default parameter
 
-function add(num1 : number,num2 : number = 10):number{
+function addOf(num1 : number,num2 : number = 10):number{
     return num1 + num2;
 }
 // new comment
-add(2,3)
+addOf(2,3)
 
 
 // arrow function
